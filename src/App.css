@@ -1,0 +1,87 @@
+.mainimage {
+  border-radius: 10px 10px 0 0;
+}
+
+.card {
+  background: #1A1B21;
+  margin-top: 44px;
+  width: 317px;
+  display: grid;
+}
+
+.contactinfo {
+  display: grid;
+  place-items: center;
+  gap: 1em;
+  padding: 2em 0;
+}
+
+.contactinfo h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.contactinfo .devtitle {
+  color: #F3BF99;
+  font-size: 0.8rem;
+}
+
+.contactinfo .website {
+  color: #F5F5F5;
+  font-size: .8em;
+}
+
+.contactinfo .buttongroup {
+  display: flex;
+  gap: 1em;
+}
+
+.contactinfo .buttongroup > button {
+  width: 115px;
+  height: 34px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.contactinfo .buttongroup > button:first-child {
+  background: #fff;
+}
+
+.contactinfo .buttongroup > button:nth-child(2) {
+  background: #5093E2;
+  color: #fff;
+}
+
+.bio {
+  color: #DCDCDC;
+  padding: 0 2em;
+}
+
+.bio h3 {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.bio p {
+  font-size: .8rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2em 0;
+  background: #161619;
+}
+
+.socials > a {
+  text-decoration: none;
+  color: #918E9B;
+}

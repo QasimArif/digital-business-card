@@ -1,0 +1,6 @@
+body {
+    background: #23252C;
+    display: grid;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
